@@ -1,0 +1,29 @@
+{
+  "name": "fido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saifalushi1/fido.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saifalushi1/fido/issues"
+  },
+  "homepage": "https://github.com/saifalushi1/fido#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "typescript": "  5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
